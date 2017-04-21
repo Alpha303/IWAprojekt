@@ -1,0 +1,185 @@
+@charset "utf-8";
+@import url("webfonts/Roboto_Regular/stylesheet.css");
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color:#004D99;
+	background-repeat:repeat;
+}
+.container
+{
+position:relative; 
+width:1009px;
+padding:0px;
+margin-left:auto;
+margin-right:auto;
+background-color:#FFFFFF;
+overflow:hidden;
+}
+
+
+h1
+{
+	font-family: "Roboto Regular";
+	font-size: 24px;
+	font-weight: normal;
+	color: #31406E;
+	letter-spacing: 8px;
+	word-spacing: 5px;
+	text-align: center;
+}
+
+.banner
+{
+	position:relative;
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#028FED, #0074CD);
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding: 0px;
+	
+}
+
+.naslov {
+	font-family: "Roboto Regular";
+	font-size: 24px;
+	color: #FFFBF0;
+	margin-left: 10px;
+}
+.tekst {
+	font-family: "Roboto Regular";
+	font-size: 14px;
+	color: #069;
+	text-align: justify;
+	text-indent: 30px;
+}
+.trazilica {
+	font-family: "Roboto Regular";
+	color: #0099FF;
+	position:absolute;
+	right: 20px;
+	top: 30px;
+}
+
+.datum {
+	font-family: "Roboto Regular";
+	font-size: 12px;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+.break {
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 610px;
+}
+.logintable {
+	font-family: "Roboto Regular";
+	font-size: 14px;
+	font-style: normal;
+	color: #0026BF;
+	border: 1px solid #CCC;
+	padding: 5px;
+	vertical-align: middle;
+	background-color:#FFFFFF;
+}
+.error {
+	font-family: "Roboto Regular";
+	text-transform: uppercase;
+	color: #F00;
+	padding: 3px;
+}
+.showpost {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	background: none;
+	color: #000000;
+	text-decoration: underline;
+	padding: 0px;
+}
+
+input.showpost:hover {
+	color: #FFF;
+}
+a.showpost:hover {
+	color: #FFF;
+}
+.mnbtn {
+	width: 150px;
+	color: #FFF;
+	font-family: "Roboto Regular";
+	font-size: 14px;
+	font-weight: normal;
+	background-image:url(images/button.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	text-decoration:none;
+}
+a.mnbtn:hover {
+	background-image:url(images/button-hover.png);
+	background-repeat: no-repeat;
+}
+.velikinaslov {
+	font-family: "Roboto Regular";
+	font-size: 24px;
+	color: #31406E;
+	letter-spacing: 8px;
+	word-spacing: 5px;
+	padding: 0px;
+	text-align: center;
+}
+
+.welcometext {
+	font-family: "Roboto Regular";
+	color: #FFF;
+	display: block;
+	text-align: right;
+	width:200px;
+}
+
+.posttable {
+	position:relative;
+	background-color:#FFFFFF;
+	border: 1px solid #b2d0ea;
+	padding:0px;
+}
+textarea.commentbox {
+	resize:vertical;
+	width:600px;
+	height:50px;
+	max-height:200px;
+	height:50px;
+	border-style:solid;
+	border-width: 1px;
+	border-color:#999;
+	
+}
+.titletable {
+	background-image: url(images/titlebg.png);
+}
+img.center {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.commenttable {
+	background-color:#FFF;
+	padding:0px;
+	border: 1px solid #b2d0ea;.body {
+}
+.reqbutton1
+{
+	background-image: url(images/accept.png);
+}
